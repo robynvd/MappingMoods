@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08DB1CB01C3F465A00624EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CAF1C3F465A00624EBA /* main.m */; };
+		08DB1CB31C3F465A00624EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CB21C3F465A00624EBA /* AppDelegate.m */; };
+		08DB1CB61C3F465A00624EBA /* MappingMoods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CB41C3F465A00624EBA /* MappingMoods.xcdatamodeld */; };
+		08DB1CB81C3F465A00624EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DB1CB71C3F465A00624EBA /* Assets.xcassets */; };
+		08DB1CBB1C3F465A00624EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DB1CB91C3F465A00624EBA /* LaunchScreen.storyboard */; };
+		08DB1CC61C3F465A00624EBA /* MappingMoodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CC51C3F465A00624EBA /* MappingMoodsTests.m */; };
+		08DB1CD11C3F465A00624EBA /* MappingMoodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CD01C3F465A00624EBA /* MappingMoodsUITests.m */; };
+		08DB1CE01C3F469A00624EBA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CDF1C3F469A00624EBA /* MapViewController.m */; };
+		08DB1CE11C3F469A00624EBA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CDF1C3F469A00624EBA /* MapViewController.m */; };
+		08DB1CE21C3F469A00624EBA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CDF1C3F469A00624EBA /* MapViewController.m */; };
+		08DB1CE81C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE51C3F4AA500624EBA /* Mood+CoreDataProperties.m */; };
+		08DB1CE91C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE51C3F4AA500624EBA /* Mood+CoreDataProperties.m */; };
+		08DB1CEA1C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE51C3F4AA500624EBA /* Mood+CoreDataProperties.m */; };
+		08DB1CEB1C3F4AA500624EBA /* Mood.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE71C3F4AA500624EBA /* Mood.m */; };
+		08DB1CEC1C3F4AA500624EBA /* Mood.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE71C3F4AA500624EBA /* Mood.m */; };
+		08DB1CED1C3F4AA500624EBA /* Mood.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CE71C3F4AA500624EBA /* Mood.m */; };
+		08DB1CF11C3F59A200624EBA /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CF01C3F59A200624EBA /* MoodViewController.m */; };
+		08DB1CF21C3F59A200624EBA /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CF01C3F59A200624EBA /* MoodViewController.m */; };
+		08DB1CF31C3F59A200624EBA /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB1CF01C3F59A200624EBA /* MoodViewController.m */; };
+		3CDF30B526CAE77B201FB2E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BADAB67D3784AA1624CFD1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08DB1CC21C3F465A00624EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08DB1CA31C3F465A00624EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08DB1CAA1C3F465A00624EBA;
+			remoteInfo = MappingMoods;
+		};
+		08DB1CCD1C3F465A00624EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08DB1CA31C3F465A00624EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08DB1CAA1C3F465A00624EBA;
+			remoteInfo = MappingMoods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DB1CAB1C3F465A00624EBA /* MappingMoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MappingMoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DB1CAF1C3F465A00624EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08DB1CB11C3F465A00624EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08DB1CB21C3F465A00624EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08DB1CB51C3F465A00624EBA /* MappingMoods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MappingMoods.xcdatamodel; sourceTree = "<group>"; };
+		08DB1CB71C3F465A00624EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08DB1CBA1C3F465A00624EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08DB1CBC1C3F465A00624EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DB1CC11C3F465A00624EBA /* MappingMoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MappingMoodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DB1CC51C3F465A00624EBA /* MappingMoodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappingMoodsTests.m; sourceTree = "<group>"; };
+		08DB1CC71C3F465A00624EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DB1CCC1C3F465A00624EBA /* MappingMoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MappingMoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DB1CD01C3F465A00624EBA /* MappingMoodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappingMoodsUITests.m; sourceTree = "<group>"; };
+		08DB1CD21C3F465A00624EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DB1CDE1C3F469A00624EBA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		08DB1CDF1C3F469A00624EBA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		08DB1CE41C3F4AA500624EBA /* Mood+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mood+CoreDataProperties.h"; sourceTree = "<group>"; };
+		08DB1CE51C3F4AA500624EBA /* Mood+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mood+CoreDataProperties.m"; sourceTree = "<group>"; };
+		08DB1CE61C3F4AA500624EBA /* Mood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mood.h; sourceTree = "<group>"; };
+		08DB1CE71C3F4AA500624EBA /* Mood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mood.m; sourceTree = "<group>"; };
+		08DB1CEF1C3F59A200624EBA /* MoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodViewController.h; sourceTree = "<group>"; };
+		08DB1CF01C3F59A200624EBA /* MoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodViewController.m; sourceTree = "<group>"; };
+		12BADAB67D3784AA1624CFD1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76A42F385058623C020700B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDBB50172C19E6DF46ECE4DD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DB1CA81C3F465A00624EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDF30B526CAE77B201FB2E0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CBE1C3F465A00624EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CC91C3F465A00624EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DB1CA21C3F465A00624EBA = {
+			isa = PBXGroup;
+			children = (
+				08DB1CAD1C3F465A00624EBA /* MappingMoods */,
+				08DB1CC41C3F465A00624EBA /* MappingMoodsTests */,
+				08DB1CCF1C3F465A00624EBA /* MappingMoodsUITests */,
+				08DB1CAC1C3F465A00624EBA /* Products */,
+				F925C3ED5F648B4623B2CB70 /* Pods */,
+				5474833708CD1E5EF0A3EFB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08DB1CAC1C3F465A00624EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CAB1C3F465A00624EBA /* MappingMoods.app */,
+				08DB1CC11C3F465A00624EBA /* MappingMoodsTests.xctest */,
+				08DB1CCC1C3F465A00624EBA /* MappingMoodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08DB1CAD1C3F465A00624EBA /* MappingMoods */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CB11C3F465A00624EBA /* AppDelegate.h */,
+				08DB1CB21C3F465A00624EBA /* AppDelegate.m */,
+				08DB1CEE1C3F594F00624EBA /* Screens */,
+				08DB1CE31C3F4A8000624EBA /* Model */,
+				08DB1CAE1C3F465A00624EBA /* Supporting Files */,
+			);
+			path = MappingMoods;
+			sourceTree = "<group>";
+		};
+		08DB1CAE1C3F465A00624EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CB91C3F465A00624EBA /* LaunchScreen.storyboard */,
+				08DB1CB71C3F465A00624EBA /* Assets.xcassets */,
+				08DB1CAF1C3F465A00624EBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08DB1CC41C3F465A00624EBA /* MappingMoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CC51C3F465A00624EBA /* MappingMoodsTests.m */,
+				08DB1CC71C3F465A00624EBA /* Info.plist */,
+			);
+			path = MappingMoodsTests;
+			sourceTree = "<group>";
+		};
+		08DB1CCF1C3F465A00624EBA /* MappingMoodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CD01C3F465A00624EBA /* MappingMoodsUITests.m */,
+				08DB1CD21C3F465A00624EBA /* Info.plist */,
+			);
+			path = MappingMoodsUITests;
+			sourceTree = "<group>";
+		};
+		08DB1CE31C3F4A8000624EBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CB41C3F465A00624EBA /* MappingMoods.xcdatamodeld */,
+				08DB1CE41C3F4AA500624EBA /* Mood+CoreDataProperties.h */,
+				08DB1CE51C3F4AA500624EBA /* Mood+CoreDataProperties.m */,
+				08DB1CE61C3F4AA500624EBA /* Mood.h */,
+				08DB1CE71C3F4AA500624EBA /* Mood.m */,
+				08DB1CBC1C3F465A00624EBA /* Info.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		08DB1CEE1C3F594F00624EBA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				08DB1CDE1C3F469A00624EBA /* MapViewController.h */,
+				08DB1CDF1C3F469A00624EBA /* MapViewController.m */,
+				08DB1CEF1C3F59A200624EBA /* MoodViewController.h */,
+				08DB1CF01C3F59A200624EBA /* MoodViewController.m */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		5474833708CD1E5EF0A3EFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12BADAB67D3784AA1624CFD1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F925C3ED5F648B4623B2CB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB50172C19E6DF46ECE4DD /* Pods.debug.xcconfig */,
+				D76A42F385058623C020700B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08DB1CAA1C3F465A00624EBA /* MappingMoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DB1CD51C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoods" */;
+			buildPhases = (
+				C25B3F4BBCDEE7913C643E07 /* Check Pods Manifest.lock */,
+				08DB1CA71C3F465A00624EBA /* Sources */,
+				08DB1CA81C3F465A00624EBA /* Frameworks */,
+				08DB1CA91C3F465A00624EBA /* Resources */,
+				37F3DEECCB0CAC1B8A57AD18 /* Embed Pods Frameworks */,
+				53DE45CE6B859DC3851DC618 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MappingMoods;
+			productName = MappingMoods;
+			productReference = 08DB1CAB1C3F465A00624EBA /* MappingMoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08DB1CC01C3F465A00624EBA /* MappingMoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DB1CD81C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoodsTests" */;
+			buildPhases = (
+				08DB1CBD1C3F465A00624EBA /* Sources */,
+				08DB1CBE1C3F465A00624EBA /* Frameworks */,
+				08DB1CBF1C3F465A00624EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08DB1CC31C3F465A00624EBA /* PBXTargetDependency */,
+			);
+			name = MappingMoodsTests;
+			productName = MappingMoodsTests;
+			productReference = 08DB1CC11C3F465A00624EBA /* MappingMoodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08DB1CCB1C3F465A00624EBA /* MappingMoodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DB1CDB1C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoodsUITests" */;
+			buildPhases = (
+				08DB1CC81C3F465A00624EBA /* Sources */,
+				08DB1CC91C3F465A00624EBA /* Frameworks */,
+				08DB1CCA1C3F465A00624EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08DB1CCE1C3F465A00624EBA /* PBXTargetDependency */,
+			);
+			name = MappingMoodsUITests;
+			productName = MappingMoodsUITests;
+			productReference = 08DB1CCC1C3F465A00624EBA /* MappingMoodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08DB1CA31C3F465A00624EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robyn Van Deventer";
+				TargetAttributes = {
+					08DB1CAA1C3F465A00624EBA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					08DB1CC01C3F465A00624EBA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 08DB1CAA1C3F465A00624EBA;
+					};
+					08DB1CCB1C3F465A00624EBA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 08DB1CAA1C3F465A00624EBA;
+					};
+				};
+			};
+			buildConfigurationList = 08DB1CA61C3F465A00624EBA /* Build configuration list for PBXProject "MappingMoods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08DB1CA21C3F465A00624EBA;
+			productRefGroup = 08DB1CAC1C3F465A00624EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08DB1CAA1C3F465A00624EBA /* MappingMoods */,
+				08DB1CC01C3F465A00624EBA /* MappingMoodsTests */,
+				08DB1CCB1C3F465A00624EBA /* MappingMoodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08DB1CA91C3F465A00624EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB1CB81C3F465A00624EBA /* Assets.xcassets in Resources */,
+				08DB1CBB1C3F465A00624EBA /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CBF1C3F465A00624EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CCA1C3F465A00624EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37F3DEECCB0CAC1B8A57AD18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DE45CE6B859DC3851DC618 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25B3F4BBCDEE7913C643E07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08DB1CA71C3F465A00624EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB1CE81C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */,
+				08DB1CB31C3F465A00624EBA /* AppDelegate.m in Sources */,
+				08DB1CB61C3F465A00624EBA /* MappingMoods.xcdatamodeld in Sources */,
+				08DB1CB01C3F465A00624EBA /* main.m in Sources */,
+				08DB1CEB1C3F4AA500624EBA /* Mood.m in Sources */,
+				08DB1CF11C3F59A200624EBA /* MoodViewController.m in Sources */,
+				08DB1CE01C3F469A00624EBA /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CBD1C3F465A00624EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB1CEC1C3F4AA500624EBA /* Mood.m in Sources */,
+				08DB1CE91C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */,
+				08DB1CC61C3F465A00624EBA /* MappingMoodsTests.m in Sources */,
+				08DB1CF21C3F59A200624EBA /* MoodViewController.m in Sources */,
+				08DB1CE11C3F469A00624EBA /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DB1CC81C3F465A00624EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB1CED1C3F4AA500624EBA /* Mood.m in Sources */,
+				08DB1CEA1C3F4AA500624EBA /* Mood+CoreDataProperties.m in Sources */,
+				08DB1CD11C3F465A00624EBA /* MappingMoodsUITests.m in Sources */,
+				08DB1CF31C3F59A200624EBA /* MoodViewController.m in Sources */,
+				08DB1CE21C3F469A00624EBA /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08DB1CC31C3F465A00624EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08DB1CAA1C3F465A00624EBA /* MappingMoods */;
+			targetProxy = 08DB1CC21C3F465A00624EBA /* PBXContainerItemProxy */;
+		};
+		08DB1CCE1C3F465A00624EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08DB1CAA1C3F465A00624EBA /* MappingMoods */;
+			targetProxy = 08DB1CCD1C3F465A00624EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08DB1CB91C3F465A00624EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DB1CBA1C3F465A00624EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08DB1CD31C3F465A00624EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08DB1CD41C3F465A00624EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08DB1CD61C3F465A00624EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBB50172C19E6DF46ECE4DD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MappingMoods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08DB1CD71C3F465A00624EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76A42F385058623C020700B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MappingMoods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08DB1CD91C3F465A00624EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MappingMoodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MappingMoods.app/MappingMoods";
+			};
+			name = Debug;
+		};
+		08DB1CDA1C3F465A00624EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MappingMoodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MappingMoods.app/MappingMoods";
+			};
+			name = Release;
+		};
+		08DB1CDC1C3F465A00624EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MappingMoodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MappingMoods;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		08DB1CDD1C3F465A00624EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MappingMoodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robynvd.MappingMoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MappingMoods;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DB1CA61C3F465A00624EBA /* Build configuration list for PBXProject "MappingMoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB1CD31C3F465A00624EBA /* Debug */,
+				08DB1CD41C3F465A00624EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DB1CD51C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB1CD61C3F465A00624EBA /* Debug */,
+				08DB1CD71C3F465A00624EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DB1CD81C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB1CD91C3F465A00624EBA /* Debug */,
+				08DB1CDA1C3F465A00624EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DB1CDB1C3F465A00624EBA /* Build configuration list for PBXNativeTarget "MappingMoodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB1CDC1C3F465A00624EBA /* Debug */,
+				08DB1CDD1C3F465A00624EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08DB1CB41C3F465A00624EBA /* MappingMoods.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08DB1CB51C3F465A00624EBA /* MappingMoods.xcdatamodel */,
+			);
+			currentVersion = 08DB1CB51C3F465A00624EBA /* MappingMoods.xcdatamodel */;
+			path = MappingMoods.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08DB1CA31C3F465A00624EBA /* Project object */;
+}
